@@ -1,6 +1,7 @@
-import {Icon} from '{universe:ui-react}';
+import React from 'react';
+import {Icon} from 'meteor/universe:ui-react';
 
-import MenuLink from './MenuLink';
+import MenuLink from './MenuLink.jsx';
 
 export const Menu = React.createClass({
     displayName: 'Menu',

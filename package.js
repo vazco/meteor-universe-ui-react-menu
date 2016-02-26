@@ -7,16 +7,17 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.use([
-        'universe:modules@0.6.7',
+        'modules@0.5.0-modules.8',
+        'ecmascript@0.4.0-modules.8',
         'universe:ui-react@0.1.0'
     ]);
 
     api.addFiles([
-        'index.import.js',
+        'index.js',
 
-        'lib/MenuBuilder.import.jsx',
+        'lib/MenuBuilder.jsx',
 
-        'components/Menu.import.jsx',
-        'components/MenuLink.import.jsx'
+        'components/Menu.jsx',
+        'components/MenuLink.jsx'
     ]);
 });
