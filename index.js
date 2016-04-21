@@ -1,4 +1,10 @@
-export * from './lib/MenuBuilder.jsx';
+import MenuBuilder from './lib/MenuBuilder.jsx';
 
-export * from './components/Menu.jsx';
-export * from './components/MenuLink.jsx';
+import Menu from './components/Menu.jsx';
+import MenuLink from './components/MenuLink.jsx';
+
+export {
+    MenuBuilder,
+    Menu,
+    MenuLink
+};
