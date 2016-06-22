@@ -1,4 +1,5 @@
-import {Icon} from '{universe:ui-react}';
+import {Icon} from 'meteor/universe:ui-react';
+import React from 'react';
 
 export const MenuLink = React.createClass({
     displayName: 'MenuLink',

@@ -7,16 +7,12 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.use([
-        'universe:modules@0.6.7',
-        'universe:ui-react@0.1.0'
+        'universe:ui-react@0.1.0',
+        'ecmascript'
     ]);
 
     api.addFiles([
-        'index.import.js',
-
-        'lib/MenuBuilder.import.jsx',
-
-        'components/Menu.import.jsx',
-        'components/MenuLink.import.jsx'
+        'index.js'
     ]);
+    api.mainModule('index.js');
 });

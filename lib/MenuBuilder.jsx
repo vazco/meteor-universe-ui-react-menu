@@ -1,3 +1,5 @@
+import React from 'react';
+
 export class MenuBuilder {
     constructor (definition = {}) {
         this.import(definition);

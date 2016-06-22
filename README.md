@@ -4,7 +4,7 @@
 
 ### MenuBuilder
 ```js
-import {MenuBuilder} from '{universe:ui-react-menu}';
+import {MenuBuilder} from 'meteor/universe:ui-react-menu';
 
 export default new MenuBuilder();
 ```
