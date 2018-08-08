@@ -1,6 +1,14 @@
-## Abandonware
+<h1 align="center">
+    <a href="https://github.com/vazco">vazco</a>/Universe UI React Menu
+</h1>
 
-# universe:ui-react-menu
+&nbsp;
+
+<h3 align="center">
+  -- Abandonware. This package is deprecated! --
+</h3>
+
+&nbsp;
 
 ### MenuBuilder
 ```js
@@ -62,3 +70,9 @@ const ExampleTopLevelVerticalMenu = React.createClass({
     }
 });
 ```
+
+### License
+
+<img src="https://vazco.eu/banner.png" align="right">
+
+**Like every package maintained by [Vazco](https://vazco.eu/), Universe UI React Menu is [MIT licensed](https://github.com/vazco/uniforms/blob/master/LICENSE).**
